@@ -12,9 +12,12 @@ class Solution {
 public:
     int maxProfit(vector<int>& prices) {
         int min=0,maxProfit=0;
+        //initially pointing min to 1st element of array
         for(int i=1;i<prices.size();i++)
         {
+            //comparing if element at min and current element i has profit>max  
             maxProfit=max(prices[i]-prices[min],maxProfit);
+            //if cuurent element is lesser than min then updating min to it
             if(prices[i]<prices[min])
                 min=i;
         }    
