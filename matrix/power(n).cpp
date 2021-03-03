@@ -6,8 +6,11 @@ public:
             return 1;
         long nn=n;
         double ans=1;
+        //if power is negative making it positive for calculation
         if(nn<0)
             nn=-1*nn;
+        //we will deviding power as if power is even then power/2 and makes x=x*x
+        //if power is even them just decrease power by 1 ,and add xinto answer as ans=ans*x
         while(nn>0)
         {
             if(nn%2==0)
