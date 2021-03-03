@@ -9,6 +9,9 @@ class Solution {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
         vector<int> p;
+      //traversing array Using 2 diff iterators i and j
+     //a[i] will be compared and added with all the next elements one by one
+     //if its sum equals target then return a[i],a[j]
         for(int i=0;i<nums.size();i++)
         {
             for(int j=i+1;j<nums.size();j++)
@@ -24,6 +27,7 @@ public:
         return p;
     }
 };
+
 //Optimal Approach : Using HashSet
 class Solution {
 public:
