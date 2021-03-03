@@ -1,12 +1,6 @@
 // Q-Given an array Arr that contains N integers (may be positive, negative or zero). Find the product of the maximum product subarray.
 #include <bits/stdc++.h>
-
 using namespace std;
-
- // } Driver Code Ends
-
-
-//User function template for C++
 class Solution{
 public:
 
@@ -18,36 +12,31 @@ public:
 	        if(arr[i]>=0)
 	            pr=arr[i];
 	        else
-	            pr=(-arr[i]);
+	            pr=(-arr[i]);	//if array element is negative then making product positive
 	        for(int j=i+1;j<n;j++)
 	        {
 	            if(arr[j]<0)
-	                pr=pr*(-arr[j]);
+	                pr=pr*(-arr[j]);	//if array element is negative then making product positive
 	            else
 	                pr=pr*arr[j];
-	            if(pr>max)
+	            if(pr>max)	//updating Max
 	                max=pr;
 	        }
 	    }
 	    return max;
 	}
 };
-
-// { Driver Code Starts.
-
 int main() {
-    int t;
-    cin >> t;
-    while (t--) {
+	//n-size of array
         int n, i;
         cin >> n;
         int arr[n];
-        for (i = 0; i < n; i++) {
+        for (i = 0; i < n; i++) 
             cin >> arr[i];
-        }
+        
         Solution ob;
         auto ans = ob.maxProduct(arr, n);
         cout << ans << "\n";
-    }
+    
     return 0;
-}  // } Driver Code Ends
+} 
