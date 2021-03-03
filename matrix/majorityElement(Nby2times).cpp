@@ -7,14 +7,18 @@ class Solution {
 public:
     int majorityElement(vector<int>& nums) {
         int count=0,el;
-        for(int num : nums)
+        //count-will count occurance of a number
+	for(int num : nums)
         {
+           //assigning 1st array element to el
             if(count==0)
 	    {
                 el=num;
 		count++;
 	     }
-            if(num==el)
+          //checking occurance of el for every element if count then increase occurance
+	  //else decrease it
+	if(num==el)
                 count++;
             else
                 count--;           
