@@ -3,12 +3,10 @@ Merge them in sorted order without using any extra space. Modify arr1 so that it
 //using gap method 
 #include <bits/stdc++.h> 
 using namespace std; 
-
-
- // } Driver Code Ends
 class Solution{
     public:
-        int nextGap(int gap)
+        //return half of the gap
+	int nextGap(int gap)
         {
              if(gap <= 1)
                 return 0;
@@ -17,18 +15,22 @@ class Solution{
         void merge(long long arr1[], long long arr2[], int n, int m) 
         { 
             int i,j,gap=m+n;
-            for(gap=nextGap(gap);gap>0;gap=nextGap(gap))
+            //gap will be halfed after each iteration untill gap equals 0
+	    for(gap=nextGap(gap);gap>0;gap=nextGap(gap))
             {
+		//comparing element of array 1 with gap
                 for(i=0;i+gap<n;i++)
                 {
                     if(arr1[i]>arr1[i+gap])
                         swap(arr1[i],arr1[i+gap]);
                 }
+		//if i+gap exceeds array1 size then comparing corresponding gap element for array 2
                 for(j=gap>n?gap-n:0;i<n && j<m;i++,j++)
                 {
                     if(arr1[i]>arr2[j])
                         swap(arr1[i],arr2[j]);
                 }
+		//when array one is sorted then sort array 2
                 if(j<m)
                 {
                     for(j=0;j+gap<m;j++)
@@ -46,36 +48,27 @@ class Solution{
             b=t;
         }
 };
-
-// { Driver Code Starts.
-
 int main() 
 { 
-	
-        int n, m;
-	    cin >> n >> m;
-	    
+           int n, m;
+	    cin >> n >> m;    
 	    long long arr1[n], arr2[m];
-	    
-	    for(int i = 0;i<n;i++){
+	    for(int i = 0;i<n;i++)
 	        cin >> arr1[i];
-	    }
 	    
-	    for(int i = 0;i<m;i++){
+	    for(int i = 0;i<m;i++)
 	        cin >> arr2[i];
-	    }
+	    
 	    Solution ob;
 	    ob.merge(arr1, arr2, n, m); 
 
-        for (int i = 0; i < n; i++) 
-            cout<<arr1[i]<<" "; 
-        
-       
+       	    for (int i = 0; i < n; i++) 
+     		     cout<<arr1[i]<<" "; 
+     
 	    for (int i = 0; i < m; i++) 
 		    cout<<arr2[i]<<" "; 
 	    
 	    cout<<endl;
-
-
+	    
 	return 0; 
 } 
