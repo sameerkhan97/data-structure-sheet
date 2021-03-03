@@ -12,21 +12,24 @@ public:
     {
        int c,i=1;
        int *a=new int[2];
-       
+       //iterating form i=0 to N
        while(i<=n)
        {
+           //c-count occurance of i in array
            c=0;
            for(int j=0;j<n;j++)
            {
+             //when i element is found in array then increase its occurance
                if(arr[j]==i)
                     c++;
            }
+           //if i occur 2 times then its duplicat elements
            if(c==2)
                 a[0]=i;
-                
+           //if i isnt found the its missing element
             else if(c==0)
                 a[1]=i;
-            
+     
             i++;
        }
        return a;
@@ -34,21 +37,17 @@ public:
 
 };
 
-// { Driver Code Starts.
-
 int main() {
-    int t;
-    cin >> t;
-    while (t--) {
+        //n-array size
         int n;
         cin >> n;
         int a[n];
-        for (int i = 0; i < n; i++) {
+        for (int i = 0; i < n; i++)
             cin >> a[i];
-        }
+        
         Solution ob;
         auto ans = ob.findTwoElement(a, n);
         cout << ans[0] << " " << ans[1] << "\n";
-    }
-    return 0;
+ 
+        return 0;
 }
