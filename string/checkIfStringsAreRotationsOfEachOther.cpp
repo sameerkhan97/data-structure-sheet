@@ -10,12 +10,11 @@ bool areRotations(string str1, string str2)
    /* Check if sizes of two strings are same */
    if (str1.length() != str2.length()) 
         return false; 
-  
+  //make a 3rd string by concatinating 1 two times 
    string temp = str1 + str1;  
+  //if str2 is rotation of str1 then str2 must be a substring of concatinated string
   return (temp.find(str2) != string::npos); 
 } 
-  
-/* Driver program to test areRotations */
 int main() 
 { 
    string str1 = "AACD", str2 = "ACDA"; 
