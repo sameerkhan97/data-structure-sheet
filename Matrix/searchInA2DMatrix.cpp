@@ -10,12 +10,14 @@ public:
         int n=matrix.size(),m=matrix[0].size();
         for(int i=0;i<n;i++)
         {
+	    //compare every row's first and last element with target if it is under the range then search for target in that row
             if(target>=matrix[i][0] && target<=matrix[i][m-1])
             {
                 pos=i;
                 break;
             }
         }
+	//if target dont fall under any range then return false
         if(pos==-1) return false;
         for(int i=0;i<m;i++)
         {
@@ -39,6 +41,9 @@ public:
 	    int i=0,j=m-1;
 	    while(i<n && j>=0)
 	    {
+		//starting from top-right corner of matrix
+		//if element is greater than target then move left i.e j--;
+		//if element is smaller than target then move downwards i.e i++
 	        if(matrix[i][j]==target)
 	            return 1;
 	        else if(matrix[i][j]>target)
