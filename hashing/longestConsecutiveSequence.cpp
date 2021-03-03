@@ -19,6 +19,7 @@ public:
         for(int i=0;i<nums.size();i++)
         {
             c=1;
+            //cmparing element at i with its next elements and counting if in sequence
             for(int j=i;j<nums.size();j++)
             {
                 if(nums[j]+1==nums[j+1])
@@ -36,23 +37,28 @@ public:
 class Solution {
 public:
     int longestConsecutive(vector<int>& nums) {
-       set<int> hashSet;
+       //heashSet will store all element of array
+        set<int> hashSet;
         for(int num : nums)
             hashSet.insert(num);
         
         int longestStreak=0;
         for(int num : nums)
         {
+            //comparing each element 1 by one
+            //if (current element-1) is not present in hashset then move ahead
             if(!hashSet.count(num-1))
             {
+                //take current Element as currentNum and its currentStreak as 1
                 int currentNum=num;
                 int currentStreak=1;
-                
+                //if sequenced elements of current element is present then increas element and streak
                 while(hashSet.count(currentNum+1))
                 {
                     currentNum++;
                     currentStreak++;
                 }
+                //if current element's streak is bigger then replace it will longestStreak
                 longestStreak=max(longestStreak,currentStreak);
             }
         }
