@@ -30,7 +30,7 @@ public:
             else if(c==0)
                 a[1]=i;
      
-            i++;
+             i++;
        }
        return a;
     }
