@@ -1,5 +1,5 @@
 //Given an m x n matrix. If an element is 0, set its entire row and column to 0. Do it in-place.
-//Brute Force : marking all positions of change with -786 and in last replacing them with 0
+//Brute Force : marking all positions  of change with -786 and in last replacing them with 0
 class Solution {
 public:
     void setZeroes(vector<vector<int>>& matrix) {
