@@ -11,7 +11,7 @@ Project contains solution code of different types of problems/Algorithms used is
 * [Min Max ](https://github.com/sameerkhan97/data-structure-sheet/blob/master/array/minMax.cpp)
 * [Minimize the Heights II](https://github.com/sameerkhan97/data-structure-sheet/blob/master/array/minimizeTheHeights.cpp)
 * [Minimum number of jumps](https://github.com/sameerkhan97/data-structure-sheet/blob/master/array/minimumNumberOfJumps.cpp)
-* [Union of two arrays](https://github.com/sameerkhan97/data-structure-sheet/blob/master/array/union%20of%20two%20arrays.cpp)
+* [Union of two arrays](https://github.com/sameerkhan97/data-structure-sheet/blob/master/array/unionOfTwoArrays.cpp)
 * [Find the Duplicate Number](https://github.com/sameerkhan97/data-structure-sheet/blob/master/array/findDuplicateNumber.cpp)
 * [Count pairs with given sum](https://github.com/sameerkhan97/data-structure-sheet/blob/master/array/countPairsWithGivenSum.cpp)
 * [Maximum Product Subarray](https://github.com/sameerkhan97/data-structure-sheet/blob/master/array/maximumProductSubarray.cpp)
