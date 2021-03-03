@@ -2,18 +2,13 @@
 //Find out what could be the possible minimum difference of the height of shortest and longest towers after you have modified each tower
 #include <bits/stdc++.h>
 using namespace std;
-
- // } Driver Code Ends
-
-
-//User function template for C++
-
 class Solution{   
 public:
     int getMinDiff(int arr[], int n, int k) {
         int i,j,maxl=0,minl=0,max=arr[0],min=arr[0];
         for(i=1;i<n;i++)
         {
+          //finding max and min  element of array before modifying 
             if(arr[i]>max){ 
                 max=arr[i];
                 maxl=i;
@@ -25,6 +20,7 @@ public:
         }
         for(i=0;i<n;i++)
         {
+            //increasing /decreasing elements according to max and min values to avoid overcomes
                 if(arr[i]+k>max-k)
                     arr[i]=arr[i]-k;
                 else if(arr[i]-k<min+k)
@@ -35,22 +31,17 @@ public:
         return difference;
     }
 };
-
-// { Driver Code Starts.
 int main() {
-    int t;
-    cin >> t;
-    while (t--) {
         int n, k;
         cin >> k;
         cin >> n;
         int arr[n];
         for (int i = 0; i < n; i++) {
             cin >> arr[i];
-        }
+    
         Solution ob;
         auto ans = ob.getMinDiff(arr, n, k);
         cout << ans << "\n";
-    }
+  
     return 0;
-}  // } Driver Code Ends
+} 
