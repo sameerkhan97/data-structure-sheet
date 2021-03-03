@@ -7,6 +7,7 @@ Output: [[-2,-1,1,2],[-2,0,0,2],[-1,0,0,1]]   */
 class Solution {
 public:
     vector<vector<int>> fourSum(vector<int>& nums, int target) {
+        //res will store quadraplets
         vector<vector<int>> res;
         if(nums.empty())
             return res;
@@ -14,17 +15,23 @@ public:
         sort(nums.begin(),nums.end());
         for(int i=0;i<nums.size();i++)
         {
+            //i-pointing to first element and j-pointing to next element
             for(int j=i+1;j<nums.size();j++)
             {
+                //sum of i,j will be deducted from target to get a new target
                 int target2=target-nums[i]-nums[j];
-                int front=j+1;
-                int back=nums.size()-1;
+                int front=j+1;          //front pointing to next element of j
+                int back=nums.size()-1; //back pointing to last element of array 
+                //iterating array with front and back
                 while(back>front)
                 {
+                    //searching for elemenet where Target2=nums[front]+nums[back]
                     if(nums[front]+nums[back]>target2)
                         back--;
                     else if(nums[front]+nums[back]<target2)
                         front++;
+                    //found front and back such that target2=front +back
+                    //now creating array of i,j,front,back to add as quadralets
                     else
                     {
                         vector<int> quadralets(4,0);
