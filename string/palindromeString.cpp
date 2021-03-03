@@ -2,18 +2,12 @@
 
 #include <stdio.h>
 #include <string.h>
-
-
- // } Driver Code Ends
-
-
-//User function Template for C
-
 int isPlaindrome(char S[])
 {
+   //use same approach as reverse just instead of swapping compare elements at start and end
     int start=0,end=strlen(S)-1;
     while(start<end){
-        if(S[start]!=S[end])
+        if(S[start]!=S[end]) //if any ent at start and end dont match then break the loop and return 0
             break;
         start++;
         end--;
@@ -23,21 +17,12 @@ int isPlaindrome(char S[])
     else
         return 1;
 }
-
-// { Driver Code Starts.
-
 int main() 
 {
-   	int t;
-   	scanf("%d", &t);
-   	while(t--)
-   	{
    		char s[100000];
    		scanf("%s", &s);;
 
 
    		printf("%d\n", isPlaindrome(s));
-   	}
-
-    return 0;
-}  // } Driver Code Ends
+     return 0;
+}
