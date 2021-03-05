@@ -33,8 +33,24 @@ Project contains solution code of different types of problems/Algorithms used is
 * [Majority Element (N by 3 times)](https://github.com/sameerkhan97/data-structure-sheet/blob/master/matrix/majorityElement(Nby3Times).cpp)
 * [Unique Grid Paths](https://github.com/sameerkhan97/data-structure-sheet/blob/master/matrix/uniqueGridPaths.cpp)
 
-# Strings :
+## Strings :
 * [Reverse a String](https://github.com/sameerkhan97/data-structure-sheet/blob/master/string/reverseString.cpp)
 * [Palindrome String](https://github.com/sameerkhan97/data-structure-sheet/blob/master/string/palindromeString.cpp)
 * [check if strings are rotations of each other or not](https://github.com/sameerkhan97/data-structure-sheet/blob/master/string/checkIfStringsAreRotationsOfEachOther.cpp)
 * [Valid Shuffle](https://github.com/sameerkhan97/data-structure-sheet/blob/master/string/validShuffle.cpp)
+
+## Linked List :
+* [Reverse A LinkedList](https://github.com/sameerkhan97/data-structure-sheet/blob/master/linkedlist/reverseALinkedList.cpp)
+* [Find Middle Of The LinkedList](https://github.com/sameerkhan97/data-structure-sheet/blob/master/linkedlist/middleOfTheLinkedList.cpp)
+* [Merge Two Sorted LinkedLists(Using Extra Space)](https://github.com/sameerkhan97/data-structure-sheet/blob/master/linkedlist/mergeTwoSortedLists(UsingExtraSpace).cpp)
+* [Merge Two Sorted LinkedLists(Inplace)](https://github.com/sameerkhan97/data-structure-sheet/blob/master/linkedlist/mergeTwoSorted%20Lists(InplaceOrWithoutUsingExtraSpace).cpp)
+* [Remove Nth Node From End Of List](https://github.com/sameerkhan97/data-structure-sheet/blob/master/linkedlist/removeNthNodeFromEndofList.cpp)
+* [Remove Nth Node From End OfList(Optimal)](https://github.com/sameerkhan97/data-structure-sheet/blob/master/linkedlist/removeNthNodeFromEndOfList(Optimal).cpp)
+* [Delete Given Node in a LinkedList](https://github.com/sameerkhan97/data-structure-sheet/blob/master/linkedlist/deleteNodeInALinkedList.cpp)
+* [Add Two Numbers as LinkedList](https://github.com/sameerkhan97/data-structure-sheet/blob/master/linkedlist/additionOfTwoLinkedList.cpp)
+* [Find Intersection Point Of Two LinkedLists](https://github.com/sameerkhan97/data-structure-sheet/blob/master/linkedlist/IntersectionOfTwoLinkedLists.cpp)
+* [Linked List Cycle Detect](https://github.com/sameerkhan97/data-structure-sheet/blob/master/linkedlist/linkedListCycleDetect.cpp)
+* [Linked List Cycle Detect-II](https://github.com/sameerkhan97/data-structure-sheet/blob/master/linkedlist/linkedListCycleDetect2.cpp)
+* [Palindrome LinkedList](https://github.com/sameerkhan97/data-structure-sheet/blob/master/linkedlist/palindromeLinkedList.cpp)
+* [Flattening of a LinkedList](https://github.com/sameerkhan97/data-structure-sheet/blob/master/linkedlist/flatteningALinkedList.cpp)
+* [Rotate a LinkedList for K times](https://github.com/sameerkhan97/data-structure-sheet/blob/master/linkedlist/rotateList.cpp)
