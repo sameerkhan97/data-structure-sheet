@@ -14,7 +14,7 @@ public:
     bool isPalindrome(ListNode* head) {
         if(head==NULL)
             return false;
-        //creating a vector and copying all linked list data in vector
+        //creating a vector and copying all linked list data in vector.
         vector<int> v;
         while(head!=NULL)
         {
