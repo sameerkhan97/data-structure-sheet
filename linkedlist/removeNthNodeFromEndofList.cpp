@@ -29,7 +29,7 @@ public:
         //iterating s-till s reaches no. of node to be deleted
         while(s<n)
         {
-            pre=temp;           //pre-pointing previous node of temp
+            pre=temp;           //pre-pointing previous node of temp.
             temp=temp->next;    
             s++;
         }
