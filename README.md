@@ -54,3 +54,5 @@ Project contains solution code of different types of problems/Algorithms used is
 * [Palindrome LinkedList](https://github.com/sameerkhan97/data-structure-sheet/blob/master/linkedlist/palindromeLinkedList.cpp)
 * [Flattening of a LinkedList](https://github.com/sameerkhan97/data-structure-sheet/blob/master/linkedlist/flatteningALinkedList.cpp)
 * [Rotate a LinkedList for K times](https://github.com/sameerkhan97/data-structure-sheet/blob/master/linkedlist/rotateList.cpp)
+* [Clone a Linked List with random and next pointer](https://github.com/sameerkhan97/data-structure-sheet/blob/master/linkedlist/cloneALinkedListWithRandomAndNextPointer.cpp)
+* [Trapping rainwater](https://github.com/sameerkhan97/data-structure-sheet/blob/master/linkedlist/trappingRainWater.cpp)
