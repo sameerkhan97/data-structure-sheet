@@ -36,7 +36,7 @@ public:
                 temp=newNode;
             }
         }
-        //if 2nd LL ends then copying all the remaining node of 1st LL to 3rd LL
+        //if 2nd LL ends then copying all the remaining node of 1st LL to 3rd LL.
         while(l1!=0)
         {
             ListNode *newNode=new ListNode(l1->val,NULL);
