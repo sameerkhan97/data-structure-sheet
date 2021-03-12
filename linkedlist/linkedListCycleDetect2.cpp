@@ -10,7 +10,7 @@
 class Solution {
 public:
     ListNode *detectCycle(ListNode *head) {
-        //hashSet to store every node of LL
+        //hashSet to store every node of LL.
         set<ListNode *> hashSet;
         if(head==NULL)
             return NULL;    
