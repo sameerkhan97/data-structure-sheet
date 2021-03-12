@@ -29,7 +29,7 @@ public:
             fast=fast->next;
         }
         //when fast reaches last node
-        //then slow will point 1 previous of nth node
+        //then slow will point 1 previous of nth node.
         slow->next=(slow->next)->next;
         
         return temp->next;
