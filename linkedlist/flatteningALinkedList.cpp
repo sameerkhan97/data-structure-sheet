@@ -30,7 +30,7 @@ Node *flatten(Node *root)
     root=mergeList(root,root->next);
     
     //return the root
-    //it will be in turn merged with its left
+    //it will be in  turn merged with its left
     return root;
 }
 //function will take 2 nodes & return a sorted node using merge Sort algorithm
