@@ -24,7 +24,7 @@ public:
             iter=front;
         }
         
-        // Second round: assign random pointers for the copy nodes.
+        // Second round: assign  random pointers for the copy nodes.
         iter=head;
         while(iter!=NULL)
         {
