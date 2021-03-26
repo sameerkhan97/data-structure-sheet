@@ -45,21 +45,20 @@ Project contains solution code of different types of problems/Algorithms used is
 * [implement strStr()](https://github.com/sameerkhan97/data-structure-sheet/blob/master/string/implementstrStr().cpp)
 * [Longest Common Prefix](https://github.com/sameerkhan97/data-structure-sheet/blob/master/string/longestCommonPrefix.cpp)
 * [Repeated String Match](https://github.com/sameerkhan97/data-structure-sheet/blob/master/string/repeatedStringMatch.cpp)
-
 ## Greedy Algorithm
-*[N meeting in one room](https://github.com/sameerkhan97/data-structure-sheet/blob/master/greedy/NmeetingsInOneRoom%20.cpp)
-*[Minimum number of platforms required for a railway](https://github.com/sameerkhan97/data-structure-sheet/blob/master/greedy/minimumPlatforms%20.cpp)
-*[Job sequencing Problem ](https://github.com/sameerkhan97/data-structure-sheet/blob/master/greedy/jobSequencingProblem%20.cpp)
-*[Fractional Knapsack Problem](https://github.com/sameerkhan97/data-structure-sheet/blob/master/greedy/fractionalKnapsack%20.cpp)
-*[Greedy algorithm to find minimum number of coins](https://github.com/sameerkhan97/data-structure-sheet/blob/master/greedy/minimumCoins.cpp)
+* [N meeting in one room](https://github.com/sameerkhan97/data-structure-sheet/blob/master/greedy/NmeetingsInOneRoom%20.cpp)
+* [Minimum number of platforms required for a railway](https://github.com/sameerkhan97/data-structure-sheet/blob/master/greedy/minimumPlatforms%20.cpp)
+* [Job sequence problem](https://github.com/sameerkhan97/data-structure-sheet/blob/master/greedy/jobSequencingProblem%20.cpp)
+* [Fractional Knapsack Problem](https://github.com/sameerkhan97/data-structure-sheet/blob/master/greedy/fractionalKnapsack%20.cpp)
+* [Find minimum number of coins](https://github.com/sameerkhan97/data-structure-sheet/blob/master/greedy/minimumCoins.cpp)
 
-## Recursion 
-*[Subset Sums](https://github.com/sameerkhan97/data-structure-sheet/blob/master/recursion/subsetSums.cpp)
-*[Subset-II ](https://github.com/sameerkhan97/data-structure-sheet/blob/master/recursion/subsetsII.cpp)
-*[Combination sum-1](https://github.com/sameerkhan97/data-structure-sheet/blob/master/recursion/combinationSum.cpp)
-*[Combination sum-2 ](https://github.com/sameerkhan97/data-structure-sheet/blob/master/recursion/combinationSumII.cpp)
-*[Palindrome Partitioning](https://github.com/sameerkhan97/data-structure-sheet/blob/master/recursion/palindromePartitioning.cpp)
-*[K-th permutation Sequence](https://github.com/sameerkhan97/data-structure-sheet/blob/master/recursion/KthPermutationSequence.cpp)
+## Recursion
+* [Subset Sums](https://github.com/sameerkhan97/data-structure-sheet/blob/master/recursion/subsetSums.cpp)
+* [Subset-II](https://github.com/sameerkhan97/data-structure-sheet/blob/master/recursion/subsetsII.cpp)
+* [Combination sum-I](https://github.com/sameerkhan97/data-structure-sheet/blob/master/recursion/combinationSum.cpp)
+* [Combination sum-II](https://github.com/sameerkhan97/data-structure-sheet/blob/master/recursion/combinationSumII.cpp)
+* [Pallindrome Partitioning ](https://github.com/sameerkhan97/data-structure-sheet/blob/master/recursion/palindromePartitioning.cpp)
+* [K-th permutation Sequence](https://github.com/sameerkhan97/data-structure-sheet/blob/master/recursion/KthPermutationSequence.cpp)
 
 ## Linked List :
 * [Reverse A LinkedList](https://github.com/sameerkhan97/data-structure-sheet/blob/master/linkedlist/reverseALinkedList.cpp)
