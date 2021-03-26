@@ -56,9 +56,9 @@ Project contains solution code of different types of problems/Algorithms used is
 ## Recursion 
 *[Subset Sums](https://github.com/sameerkhan97/data-structure-sheet/blob/master/recursion/subsetSums.cpp)
 *[Subset-II ](https://github.com/sameerkhan97/data-structure-sheet/blob/master/recursion/subsetsII.cpp)
-*[Combination sum-1] (https://github.com/sameerkhan97/data-structure-sheet/blob/master/recursion/combinationSum.cpp)
+*[Combination sum-1](https://github.com/sameerkhan97/data-structure-sheet/blob/master/recursion/combinationSum.cpp)
 *[Combination sum-2 ](https://github.com/sameerkhan97/data-structure-sheet/blob/master/recursion/combinationSumII.cpp)
-*[Palindrome Partitioning] (https://github.com/sameerkhan97/data-structure-sheet/blob/master/recursion/palindromePartitioning.cpp)
+*[Palindrome Partitioning](https://github.com/sameerkhan97/data-structure-sheet/blob/master/recursion/palindromePartitioning.cpp)
 *[K-th permutation Sequence](https://github.com/sameerkhan97/data-structure-sheet/blob/master/recursion/KthPermutationSequence.cpp)
 
 ## Linked List :
