@@ -38,6 +38,28 @@ Project contains solution code of different types of problems/Algorithms used is
 * [Palindrome String](https://github.com/sameerkhan97/data-structure-sheet/blob/master/string/palindromeString.cpp)
 * [check if strings are rotations of each other or not](https://github.com/sameerkhan97/data-structure-sheet/blob/master/string/checkIfStringsAreRotationsOfEachOther.cpp)
 * [Valid Shuffle](https://github.com/sameerkhan97/data-structure-sheet/blob/master/string/validShuffle.cpp)
+* [Reverse Words in a String](https://github.com/sameerkhan97/data-structure-sheet/blob/master/string/reverseWordsinString.cpp)
+* [Longest Palindrome in a String](https://github.com/sameerkhan97/data-structure-sheet/blob/master/string/longestPalindromeinaString%20.cpp)
+* [Roman Number to Integer and vice versa](https://github.com/sameerkhan97/data-structure-sheet/blob/master/string/romanNumbertoInteger.cpp)
+* [Implement stringtoInteger(ATOI)](https://github.com/sameerkhan97/data-structure-sheet/blob/master/string/stringtoInteger(atoi)%20.cpp)
+* [implement strStr()](https://github.com/sameerkhan97/data-structure-sheet/blob/master/string/implementstrStr().cpp)
+* [Longest Common Prefix](https://github.com/sameerkhan97/data-structure-sheet/blob/master/string/longestCommonPrefix.cpp)
+* [Repeated String Match](https://github.com/sameerkhan97/data-structure-sheet/blob/master/string/repeatedStringMatch.cpp)
+
+## Greedy Algorithm
+*[N meeting in one room](https://github.com/sameerkhan97/data-structure-sheet/blob/master/greedy/NmeetingsInOneRoom%20.cpp)
+*[Minimum number of platforms required for a railway](https://github.com/sameerkhan97/data-structure-sheet/blob/master/greedy/minimumPlatforms%20.cpp)
+*[Job sequencing Problem ](https://github.com/sameerkhan97/data-structure-sheet/blob/master/greedy/jobSequencingProblem%20.cpp)
+*[Fractional Knapsack Problem](https://github.com/sameerkhan97/data-structure-sheet/blob/master/greedy/fractionalKnapsack%20.cpp)
+*[Greedy algorithm to find minimum number of coins](https://github.com/sameerkhan97/data-structure-sheet/blob/master/greedy/minimumCoins.cpp)
+
+## Recursion 
+*[Subset Sums](https://github.com/sameerkhan97/data-structure-sheet/blob/master/recursion/subsetSums.cpp)
+*[Subset-II ](https://github.com/sameerkhan97/data-structure-sheet/blob/master/recursion/subsetsII.cpp)
+*[Combination sum-1] (https://github.com/sameerkhan97/data-structure-sheet/blob/master/recursion/combinationSum.cpp)
+*[Combination sum-2 ](https://github.com/sameerkhan97/data-structure-sheet/blob/master/recursion/combinationSumII.cpp)
+*[Palindrome Partitioning] (https://github.com/sameerkhan97/data-structure-sheet/blob/master/recursion/palindromePartitioning.cpp)
+*[K-th permutation Sequence](https://github.com/sameerkhan97/data-structure-sheet/blob/master/recursion/KthPermutationSequence.cpp)
 
 ## Linked List :
 * [Reverse A LinkedList](https://github.com/sameerkhan97/data-structure-sheet/blob/master/linkedlist/reverseALinkedList.cpp)
