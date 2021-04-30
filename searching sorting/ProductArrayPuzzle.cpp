@@ -1,4 +1,4 @@
-/*Given an array A[] of size N, construct a Product Array P (of same size N) such that P[i] 
+/* Given an array A[] of size N, construct a Product Array P (of same size N) such that P[i] 
   is equal to the product of all the elements of A except A[i].
 
 Example 1:
