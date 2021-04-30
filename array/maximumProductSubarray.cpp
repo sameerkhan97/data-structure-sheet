@@ -1,42 +1,44 @@
-// Q-Given an array Arr that contains N integers (may be positive, negative or zero). Find the product of the maximum product subarray.
-#include <bits/stdc++.h>
-using namespace std;
+/*Given an array Arr that contains N integers (may be positive, negative or zero). Find the product of the maximum product subarray.
+
+Example 1:
+Input: N = 5    Arr[] = {6, -3, -10, 0, 2}
+Output: 180
+Explanation: Subarray with maximum product
+is  6, -3, -10 which gives product as 180.
+Example 2:
+Input: N = 6    Arr[] = {2, 3, 4, 5, -1, 0}
+Output: 120
+Explanation: Subarray with maximum product
+is 2, 3, 4, 5 which gives product as 120. */
+
+
 class Solution{
 public:
 
 	// Function to find maximum product subarray
 	long long maxProduct(int *arr, int n) {
-	    long long pr=1,max=-1020;
-	    for(int i=0;i<n;i++)
+	    if(n==1)
+	        return arr[0];
+	    //ma-maximum element in array
+	    long long ma=arr[0];
+	    //mi-minimum element in array
+	    long long mi=arr[0];
+	    //prod-max product in an array
+	    long long prod=arr[0];
+	    //traversing from 2nd element to last element
+	    for(int i=1;i<n;i++)
 	    {
-	        if(arr[i]>=0)
-	            pr=arr[i];
-	        else
-	            pr=(-arr[i]);	//if array element is negative then making product positive
-	        for(int j=i+1;j<n;j++)
-	        {
-	            if(arr[j]<0)
-	                pr=pr*(-arr[j]);	//if array element is negative then making product positive
-	            else
-	                pr=pr*arr[j];
-	            if(pr>max)	//updating Max
-	                max=pr;
-	        }
+	        //if current element is negatiuve
+	        if(arr[i]<0)
+	            swap(ma,mi);
+	       //select maximum between product and current element
+	       ma=max((long long) arr[i],arr[i]*ma);
+	       //select minimum between product and current element
+	       mi=min((long long) arr[i],arr[i]*mi);
+	       //if product greater than maximumProduct then save it
+	       if(ma>prod)
+	        prod=ma;
 	    }
-	    return max;
+	    return prod;
 	}
 };
-int main() {
-	//n-size of array
-        int n, i;
-        cin >> n;
-        int arr[n];
-        for (i = 0; i < n; i++) 
-            cin >> arr[i];
-        
-        Solution ob;
-        auto ans = ob.maxProduct(arr, n);
-        cout << ans << "\n";
-    
-    return 0;
-} 
