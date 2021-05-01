@@ -1,5 +1,5 @@
 /*Given an array arr[] of distinct integers of size N and a sum value X, the task is to find count of triplets 
-  with the sum smaller than the given sum value X.
+  with the sum smaller than the given sum value X. 
 
 Example 1:
 Input: N = 6, X = 2 	arr[] = {-2, 0, 1, 3}
