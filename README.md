@@ -111,7 +111,7 @@ Project contains solution code of different types of problems/Algorithms used is
 * [Clone a Linked List with random and next pointer](https://github.com/sameerkhan97/data-structure-sheet/blob/master/linkedlist/cloneALinkedListWithRandomAndNextPointer.cpp)
 * [Trapping rainwater](https://github.com/sameerkhan97/data-structure-sheet/blob/master/linkedlist/trappingRainWater.cpp* )
 
-##Sorting Searching
+## Sorting Searching :
 * [EKO -SPOJ](https://github.com/sameerkhan97/data-structure-sheet/blob/master/searching%20sorting/EKO-SPOJ.cpp)
 * [Product Array Puzzle](https://github.com/sameerkhan97/data-structure-sheet/blob/master/searching%20sorting/ProductArrayPuzzle.cpp)
 * [Allocate Minimum Number Of Pages](https://github.com/sameerkhan97/data-structure-sheet/blob/master/searching%20sorting/allocateMinimumNumberOfPages.cpp)
