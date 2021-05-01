@@ -6,7 +6,7 @@ Explaination: swap 8 with 4.
 
 Example 2:
 Input: nums = {10, 19, 6, 3, 5}
-Output: 2
+Output: 2 
 Explaination: swap 10 with 3 and swap 19 with 5.  */
 
 class Solution {
