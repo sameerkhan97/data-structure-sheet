@@ -12,7 +12,7 @@ Explanation: 1 is the only Perfect Square less than 3. So, the Output is 1. */
 
 
 
-//There are sqrt(n) Perfect Squares between 1 and n.
+//There are sqrt(n)  Perfect Squares between 1 and n.
 class Solution {
   public:
     int countSquares(int N) {
