@@ -8,7 +8,7 @@ public:
 
         for(int i=0;i<n;i++)
         {
-            //increase occurance of of element 
+            //increase occurance of of element  
             //and check if it occured 2 time
             temp[arr[i]]++;
             if(temp[arr[i]]==2)
