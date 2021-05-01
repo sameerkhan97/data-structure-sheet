@@ -4,7 +4,7 @@
 Example 1:
 Input: arr1[] = {2, 3, 6, 7, 9} , arr2[] = {1, 4, 8, 10} , k = 5
 Output: 6
-Explanation:The final sorted array would be - 1, 2, 3, 4, 6, 7, 8, 9, 10
+Explanation:The final sorted array would be - 1, 2, 3, 4, 6, 7, 8, 9, 10 
             The 5th element of this array is 6.
 
 Example 2:
