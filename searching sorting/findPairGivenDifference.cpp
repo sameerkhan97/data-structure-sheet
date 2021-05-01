@@ -9,7 +9,7 @@ Explanation: (2, 80) have difference of 78.
 Example 2:
 Input: L = 5, N = 45   arr[] = {90, 70, 20, 80, 50}
 Output: -1
-Explanation: There is no pair with difference of 45.  */
+Explanation: There is no pair with difference of 45.  */ 
 
 
 
