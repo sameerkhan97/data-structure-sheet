@@ -31,7 +31,7 @@ class Solution {
         int stu=1;//starting distribution from 1 student
         for(int i=0;i<n;i++)
         {
-            //if first book page is greater than range then it cnt be distributed hence return false
+            //if first book  page is greater than range then it cnt be distributed hence return false
             if(a[i]>mid)
                 return false;
             //when distribution of pages to one stuudent reaches its limit i.e mid
