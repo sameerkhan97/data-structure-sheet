@@ -25,7 +25,7 @@ vector<int> find(int arr[], int n , int x )
             ans[1]=i;
             c++;
         }
-        //for last occurance of x inserting index
+        //for last occurance of x inserting index 
         else if(arr[i]==x)
             ans[1]=i;
     }
