@@ -1,4 +1,4 @@
-/*Given three integers  'a' denoting the first term of an arithmetic sequence , 'c' denoting the common difference of an arithmetic sequence 
+/*Given three integers  'a' denoting the first term of an arithmetic sequence ,'c' denoting the common difference of an arithmetic sequence 
   and an integer 'b'. you need to tell whether 'b' exists in the arithmetic sequence or not.
 
 Example 1:
