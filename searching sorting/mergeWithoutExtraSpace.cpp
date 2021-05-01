@@ -31,7 +31,7 @@ public:
 	    b=t;
 	}
 	void merge(int arr1[], int arr2[], int n, int m) {
-	    //gap to use as index and every element will be compared with its gap element
+	    //gap to use as index and every element will be compared with its gap element 
         int gap=n+m,j,i;
         for(gap=nextGap(gap);gap>0;gap=nextGap(gap))
 	    {
