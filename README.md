@@ -1,6 +1,9 @@
 # data-structure-sheet
 
 Project contains solution code of different types of problems/Algorithms used is problem solvings.
+
+ ## Questions File : 
+ * [DSA cracker sheet 450 question](https://github.com/sameerkhan97/data-structure-sheet/blob/master/FINAL450.xlsx)
 ## Array : 
 * [Sort an array of 0s, 1s and 2s](https://github.com/sameerkhan97/data-structure-sheet/blob/master/array/sortArrayOf0s%2C1s%2C2s.cpp)
 * [Find Missing And Repeating](https://github.com/sameerkhan97/data-structure-sheet/blob/master/array/findMissingAndRepeatingElement.cpp)
@@ -135,3 +138,7 @@ Project contains solution code of different types of problems/Algorithms used is
 * [Stickler Thief](https://github.com/sameerkhan97/data-structure-sheet/blob/master/searching%20sorting/sticklerThief.cpp)
 * [Value Equal To Index Value](https://github.com/sameerkhan97/data-structure-sheet/blob/master/searching%20sorting/valueEqualToIndexValue.cpp)
 * [Zero Sum Subarrays](https://github.com/sameerkhan97/data-structure-sheet/blob/master/searching%20sorting/zeroSumSubarrays.cpp)
+
+## Binary Tree : 
+* [Problems on Binary Tree](https://github.com/sameerkhan97/data-structure-sheet/tree/master/binary%20tree)
+ 
