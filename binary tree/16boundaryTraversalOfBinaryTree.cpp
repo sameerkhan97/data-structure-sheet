@@ -57,7 +57,7 @@ public:
         if(!root)   return; 
         if(root->right){
             //traversing the tree first recursively snf=d then storing data in vector
-            //to tht it will be stored in reverse order
+            //so tht it will be stored in reverse order
             rightNode(root->right);
             ans.push_back(root->data);
         }

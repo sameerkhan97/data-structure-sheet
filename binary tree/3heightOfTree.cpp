@@ -1,14 +1,13 @@
 /*Given a binary tree, find its height.
 
 Example 1:
-
 Input:
      1
     /  \
    2    3
 Output: 2
-Example 2:
 
+Example 2:
 Input:
   2
    \
@@ -16,9 +15,7 @@ Input:
    /
  3
 Output: 3
-
 */
-
 
 int height(struct Node* node){
     if(!node)

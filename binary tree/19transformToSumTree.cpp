@@ -2,7 +2,6 @@
   the sum of the left and right sub trees of the original tree. The values of leaf nodes are changed to 0.
 
 Example 1:
-
 Input:
              10
           /      \
@@ -18,13 +17,11 @@ Output:
      0     0   0    0
 
 Explanation:
-
            (4-2+12+6)
           /           \
       (8-4)          (7+5)
        /   \         /  \
       0     0       0    0
-
 */
 
 class Solution {

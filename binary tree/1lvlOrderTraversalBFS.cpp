@@ -8,7 +8,7 @@ Input:
  3     2
 Output:1 3 2
 Example 2:
-
+7
 Input:
         10
      /      \
@@ -16,9 +16,6 @@ Input:
   /   \
  40   60
 Output:10 20 30 40 60 N N
-
-
-
 */
 
 class Solution

@@ -7,8 +7,8 @@ N = 4
 inorder[] = {1 6 8 7}
 preorder[] = {1 6 7 8}
 Output: 8 7 6 1
-Example 2:
 
+Example 2:
 Input:
 N = 6
 inorder[] = {3 1 4 0 5 2}

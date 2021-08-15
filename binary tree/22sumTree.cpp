@@ -55,7 +55,6 @@ class Solution
         return left+right+root->data;
     }
     
-    
     bool isSumTree(Node* root)
     {
          solve(root);

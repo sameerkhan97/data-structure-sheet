@@ -1,8 +1,6 @@
 /* Given a Binary Tree, print the diagonal traversal of the binary tree.Consider lines of slope -1 passing between nodes. 
    Given a Binary Tree, print all diagonal elements in a binary tree belonging to same line.
-
 Example 1:
-
 Input :
             8
          /     \
