@@ -141,4 +141,7 @@ Project contains solution code of different types of problems/Algorithms used is
 
 ## Binary Tree : 
 * [Problems on Binary Tree](https://github.com/sameerkhan97/data-structure-sheet/tree/master/binary%20tree)
+
+## Binary Search Tree : 
+* [Problems on Binary Search Tree](https://github.com/sameerkhan97/data-structure-sheet/tree/master/binary%20search%20tree)
  
