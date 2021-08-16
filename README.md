@@ -82,11 +82,10 @@ Project contains solution code of different types of problems/Algorithms used is
 * [Repeated String Match](https://github.com/sameerkhan97/data-structure-sheet/blob/master/string/repeatedStringMatch.cpp)
 
 ## Greedy Algorithm
-* [N meeting in one room](https://github.com/sameerkhan97/data-structure-sheet/blob/master/greedy/NmeetingsInOneRoom%20.cpp)
-* [Minimum number of platforms required for a railway](https://github.com/sameerkhan97/data-structure-sheet/blob/master/greedy/minimumPlatforms%20.cpp)
-* [Job sequence problem](https://github.com/sameerkhan97/data-structure-sheet/blob/master/greedy/jobSequencingProblem%20.cpp)
-* [Fractional Knapsack Problem](https://github.com/sameerkhan97/data-structure-sheet/blob/master/greedy/fractionalKnapsack%20.cpp)
-* [Find minimum number of coins](https://github.com/sameerkhan97/data-structure-sheet/blob/master/greedy/minimumCoins.cpp)
+* [N meeting in one room](https://github.com/sameerkhan97/data-structure-sheet/blob/master/greedy/1NmeetingInOneRoom%20.cpp)
+* [Job sequence problem](https://github.com/sameerkhan97/data-structure-sheet/blob/master/greedy/2jobSequencingProblem.cpp)
+* [Fractional Knapsack Problem](https://github.com/sameerkhan97/data-structure-sheet/blob/master/greedy/5fractionalKnapsack%20.cpp)
+* [Find minimum number of coins](https://github.com/sameerkhan97/data-structure-sheet/blob/master/greedy/6chooseAndSwap%20.cpp)
 
 ## Recursion
 * [Subset Sums](https://github.com/sameerkhan97/data-structure-sheet/blob/master/recursion/subsetSums.cpp)
