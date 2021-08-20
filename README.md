@@ -82,11 +82,7 @@ Project contains solution code of different types of problems/Algorithms used is
 * [Repeated String Match](https://github.com/sameerkhan97/data-structure-sheet/blob/master/string/repeatedStringMatch.cpp)
 
 ## Greedy Algorithm
-* [N meeting in one room](https://github.com/sameerkhan97/data-structure-sheet/blob/master/greedy/1NmeetingInOneRoom%20.cpp)
-* [Job sequence problem](https://github.com/sameerkhan97/data-structure-sheet/blob/master/greedy/2jobSequencingProblem.cpp)
-* [Fractional Knapsack Problem](https://github.com/sameerkhan97/data-structure-sheet/blob/master/greedy/5fractionalKnapsack%20.cpp)
-* [Find minimum number of coins](https://github.com/sameerkhan97/data-structure-sheet/blob/master/greedy/6chooseAndSwap%20.cpp)
-
+* [All Questions](https://github.com/sameerkhan97/data-structure-sheet/tree/master/greedy)
 ## Recursion
 * [Subset Sums](https://github.com/sameerkhan97/data-structure-sheet/blob/master/recursion/subsetSums.cpp)
 * [Subset-II](https://github.com/sameerkhan97/data-structure-sheet/blob/master/recursion/subsetsII.cpp)
